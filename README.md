@@ -36,7 +36,8 @@ This site deploys automatically to **GitHub Pages** on every push to `main` via 
 
 1. Go to [Repository Settings → Pages](https://github.com/Zanuah/javagenics-website/settings/pages)
 2. Set **Source** to **GitHub Actions**
-3. Push to `main` — the workflow builds and deploys within ~2 minutes
+3. **Add the deploy workflow** — if `.github/workflows/deploy.yml` is not yet on GitHub, create it via the GitHub web UI (Add file → paste from the local copy in this repo). Git push requires a PAT with the `workflow` scope to upload workflow files.
+4. Push to `main` — the workflow builds and deploys within ~2 minutes
 
 The site will be available at `https://zanuah.github.io/javagenics-website/` until a custom domain is configured.
 
