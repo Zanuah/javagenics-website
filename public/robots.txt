@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://javagenics.org/sitemap.xml
+Sitemap: https://www.javagenics.org/sitemap.xml
