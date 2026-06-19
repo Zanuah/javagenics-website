@@ -69,3 +69,5 @@ A [`public/CNAME`](public/CNAME) file is included. To point your domain:
 **Java Genics LLC**  
 San Antonio, Texas  
 [requests@javagenics.org](mailto:requests@javagenics.org)
+
+<!-- deployed via GitHub Pages -->
